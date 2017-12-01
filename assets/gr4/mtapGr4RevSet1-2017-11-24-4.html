@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type='text/javascript'>
+    function show(id) {
+      document.getElementById(id).style.display='block'
+    }
+    function hide(id) {
+      document.getElementById(id).style.display='none'
+    }
+  </script>	
+	<script type='text/x-mathjax-config''>
+		MathJax.Hub.Config({
+			extensions: ['tex2jax.js'],
+			jax: ['input/TeX', 'output/HTML-CSS'],
+			tex2jax: {
+				inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+				displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
+				processEscapes: true
+			},
+			'HTML-CSS': { availableFonts: ['TeX'] }
+		});
+	</script>
+	<!--script type='text/javascript' async
+		src='http://localhost/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML'>
+	</script-->
+	<script type='text/javascript' async
+		src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'>
+	</script>
+</head>
+
+<body>
+
+<br/>
+<p id='q1'> 1. What is the place value of the underlined digit in 827,69<u>7</u>?<br/>
+<tt id='ans1' style='display:none'><b><i>Ans.</i></b>: ones or units</tt>
+<tt id='sol1' style='display:none'><b><i>Sol.</i></b>: The given number is equal to 8(100,000) + 2(10,000) + 7(1,000) + 6(100) + 9(10) + 7(1).  Hence the place value of the the underlined digit is ones or units.</tt>
+
+<button type='button' onclick='show("ans1")'>Ans.</button>
+<button type='button' onclick='show("sol1")'>Sol.</button>
+<button type='button' onclick='hide("ans1");hide("sol1")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q2'> 2. Write four hundred forty nine thousand six hundred eleven using Hindu-Arabic numerals.<br/>
+<tt id='ans2' style='display:none'><b><i>Ans.</i></b>: 449,611</tt>
+<tt id='sol2' style='display:none'><b><i>Sol.</i></b>: The given number is equal to 449(1,000) + 6(100) + 1(10) + 1(1) = 449,611.</tt>
+
+<button type='button' onclick='show("ans2")'>Ans.</button>
+<button type='button' onclick='show("sol2")'>Sol.</button>
+<button type='button' onclick='hide("ans2");hide("sol2")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q3'> 3. How many common divisors (including 1) do 12 and 40 have?<br/>
+<tt id='ans3' style='display:none'><b><i>Ans.</i></b>: 3</tt>
+<tt id='sol3' style='display:none'><b><i>Sol.</i></b>: The number of common divisors (or factors) of any two counting numbers is as many as the divisors of their greatest common factor (GCF).  The GCF of 12 and 40 is 4 and this GCF has 3 divisors. <br/>  Observe that the prime factorization of 40 = $  2^{3}5^{1} $  and the prime factorization of 12 =  $ 2^{2}3^{1} $. <br/>  It follows that their GCF is $ 2^{2} = 4 $, which has 2 + 1 = 3 divisors.</tt>
+
+<button type='button' onclick='show("ans3")'>Ans.</button>
+<button type='button' onclick='show("sol3")'>Sol.</button>
+<button type='button' onclick='hide("ans3");hide("sol3")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q4'> 4. Find two integers whose sum is 17 and whose product is 70.<br/>
+<tt id='ans4' style='display:none'><b><i>Ans.</i></b>: 7 and 10</tt>
+<tt id='sol4' style='display:none'><b><i>Sol.</i></b>: Since the sum of the two numbers is positive and the product is also positive, each number must be positive.<br/>  So we can try number pairs such as 1 and 16, 2 and 15, 3 and 14, 4 and 13, 5 and 12, among others.  One can show that the choice of 9 and 8 is too big since 72 $>$ 70.  However, the choice of 7 and 10 is fine since 10+7=17 and (10)(7)=70.</tt>
+
+<button type='button' onclick='show("ans4")'>Ans.</button>
+<button type='button' onclick='show("sol4")'>Sol.</button>
+<button type='button' onclick='hide("ans4");hide("sol4")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q5'> 5. How many 6ths are in 3/2?<br/>
+<tt id='ans5' style='display:none'><b><i>Ans.</i></b>: 9</tt>
+<tt id='sol5' style='display:none'><b><i>Sol.</i></b>: This answer is obtained by dividing 3/2 by 1/6 giving (3/2)/(1/6) = (3/2)(6) =  (3)(6/2) = (3)(3) = 9.<br/>  One can speedily verify that 9(1/6) = 3/2.</tt>
+
+<button type='button' onclick='show("ans5")'>Ans.</button>
+<button type='button' onclick='show("sol5")'>Sol.</button>
+<button type='button' onclick='hide("ans5");hide("sol5")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q6'> 6. Covert the mixed fraction $ 6 \frac{3}{4} $ into an equivalent improper fraction in lowest terms.<br/>
+<tt id='ans6' style='display:none'><b><i>Ans.</i></b>: 27/4</tt>
+<tt id='sol6' style='display:none'><b><i>Sol.</i></b>: $ 6 + \frac{3}{4} = 6(\frac{4}{4}) + \frac{3}{4} = \frac{(6)(4)}{4} + \frac{3}{4} = \frac{(6)(4)+3}{4} = \frac{27}{4} $ <br/> or <br/> $ a + \frac{b}{c} = \frac{a(c)  + b}{c} $.  <br/>  Here, $ a=6$, $ b=3$ and $ c=4$.  So that $ 6 \frac{3}{4} = \frac{(6)(4)+3}{4} = \frac{24+3}{4} = \frac{27}{4} $.</tt>
+
+<button type='button' onclick='show("ans6")'>Ans.</button>
+<button type='button' onclick='show("sol6")'>Sol.</button>
+<button type='button' onclick='hide("ans6");hide("sol6")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q7'> 7. If $\frac{45}{20} = \frac{N}{100}$, what is the value of $ N$ ?<br/>
+<tt id='ans7' style='display:none'><b><i>Ans.</i></b>: 225</tt>
+<tt id='sol7' style='display:none'><b><i>Sol.</i></b>: Notice that the left-hand side ratio $\frac{45}{20} = \frac{5(9)}{5(4)} = \frac{9}{4} $ in lowest terms, and that the denominator of the right-hand side ratio, 100, is obtained from the denominator of the left-hand side ratio by multiplying the denomiator of the left-hand side (lowest terms form) by 25.  Hence, also multiplying the left-hand side numerator (lowest terms form), 9, by 25 should give us the numerator of the right-hand side: (9)(25) = 225.</tt>
+
+<button type='button' onclick='show("ans7")'>Ans.</button>
+<button type='button' onclick='show("sol7")'>Sol.</button>
+<button type='button' onclick='hide("ans7");hide("sol7")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q8'> 8. Mr. Chef bought exactly $ 3 \frac{1}{4}$ dozen eggs and used $ 2 \frac{1}{3}$ to cook a certain egg dish.  How many of the eggs that he bought for cooking this egg dish remained (that is, were not used for cooking the dish)?<br/>
+<tt id='ans8' style='display:none'><b><i>Ans.</i></b>: 11 eggs</tt>
+<tt id='sol8' style='display:none'><b><i>Sol.</i></b>: Since there are 12 eggs in a dozen of eggs, the answer is $ 12(3 \frac{1}{4} - 2 \frac{1}{3}) = 12(\frac{12+1}{4} - \frac{6+1}{3}) =  12(\frac{13}{4} - \frac{7}{3}) = 11 $ eggs.</tt>
+
+<button type='button' onclick='show("ans8")'>Ans.</button>
+<button type='button' onclick='show("sol8")'>Sol.</button>
+<button type='button' onclick='hide("ans8");hide("sol8")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q9'> 9. A certain Grade 4 class  contains 40 students.  If 8 of the students are boys, what is the ratio of boys to girls?<br/>
+<tt id='ans9' style='display:none'><b><i>Ans.</i></b>: 1:4  or  1/4</tt>
+<tt id='sol9' style='display:none'><b><i>Sol.</i></b>: If 8 of the students are boys, then 40 - 8 = 32 of the students are girls.  So the ratio of the number of boys to girls for this class is $\frac{8}{40-8} = \frac{8}{32} = \frac{2^3}{2^3(2^2)} = \frac{1}{2^2} = \frac{1}{4} $.</tt>
+
+<button type='button' onclick='show("ans9")'>Ans.</button>
+<button type='button' onclick='show("sol9")'>Sol.</button>
+<button type='button' onclick='hide("ans9");hide("sol9")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q10'> 10. A certain Grade 4 class  contains 40 students.  If 8 of the students are boys, what percentage of the class are girls?<br/>
+<tt id='ans10' style='display:none'><b><i>Ans.</i></b>: 80 percent</tt>
+<tt id='sol10' style='display:none'><b><i>Sol.</i></b>: If 8 of the students are boys, then 40 - 8 = 32 of the students are girls.  So the percentage of girls in the class is $\frac{32}{40}\times 100\% = 80\% $.</tt>
+
+<button type='button' onclick='show("ans10")'>Ans.</button>
+<button type='button' onclick='show("sol10")'>Sol.</button>
+<button type='button' onclick='hide("ans10");hide("sol10")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q11'> 11. Which has the smaller angle measure: <b>right</b> angle or <b>obtuse</b> angle?<br/>
+<tt id='ans11' style='display:none'><b><i>Ans.</i></b>: right</tt>
+<tt id='sol11' style='display:none'><b><i>Sol.</i></b>: Recall that an <b>acute</b> angle has a measure that is less than $ 90^\circ$ while an <b>obtuse</b> angle has a measure that is more than $ 90^\circ$; a right angle measures exactly $ 90^\circ$.</tt>
+
+<button type='button' onclick='show("ans11")'>Ans.</button>
+<button type='button' onclick='show("sol11")'>Sol.</button>
+<button type='button' onclick='hide("ans11");hide("sol11")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q12'> 12. The length of a rectangle is thrice (or three times) its width. If the perimeter of the rectangle is 128 meters, find the measurement of the width.<br/>
+<tt id='ans12' style='display:none'><b><i>Ans.</i></b>: width = 16 meters or 16 m</tt>
+<tt id='sol12' style='display:none'><b><i>Sol.</i></b>: Let $ w$ and $ l$ be the width and length, respectively, of the rectangle.  Since the length is thrice (or three times) the width, the the ratio of the length to the width is 3:1, or that $\frac{l}{w}=\frac{3}{1}$.<br/>  Since the perimeter is twice the sum of the length and the width, then the sum $ l + w = 128/2 = 64.$  <br/>  So the width must be $  \frac{1}{3+1}(l+w) = \frac{1}{4}(l+w) = \frac{64}{4} = 16$ m.</tt>
+
+<button type='button' onclick='show("ans12")'>Ans.</button>
+<button type='button' onclick='show("sol12")'>Sol.</button>
+<button type='button' onclick='hide("ans12");hide("sol12")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q13'> 13. The length of a rectangle is thrice (or three times) its width.  If the length of the rectangle is 48 meters, find the area of the rectangle.<br/>
+<tt id='ans13' style='display:none'><b><i>Ans.</i></b>: 768 square meters (or 768 m$ {}^2$)</tt>
+<tt id='sol13' style='display:none'><b><i>Sol.</i></b>: Area is length times width or $ A=l\times w$.  Since the length of the given rectangle is thrice (or three times) its width, then its width $ w = \frac{l}{3} = \frac{48}{3} = 16$ m.  So its areas is $ A = l\times w = (48)(16) = 768$ square meters (m$ {}^2$).</tt>
+
+<button type='button' onclick='show("ans13")'>Ans.</button>
+<button type='button' onclick='show("sol13")'>Sol.</button>
+<button type='button' onclick='hide("ans13");hide("sol13")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q14'> 14. Trees were planted 6 meters apart along a straight line segment so that the distance between the first tree and the last tree planted is 216 meters.  How many trees were planted along this straight line segment?<br/>
+<tt id='ans14' style='display:none'><b><i>Ans.</i></b>: 37</tt>
+<tt id='sol14' style='display:none'><b><i>Sol.</i></b>: For a line segment 1(6)=6 m long, two trees; for a line segment 2(6)=12 m long, three trees; for a line segment 3(6)=18 m long, 4 trees; ...; for a line 36(6)=216 m long, 37 trees.  So, in general, divide the length of the line segment that was planted with trees by the constant distance between two adjacent trees, then add 1, i.e., 216/6 + 1 = 36 + 1 = 37.</tt>
+
+<button type='button' onclick='show("ans14")'>Ans.</button>
+<button type='button' onclick='show("sol14")'>Sol.</button>
+<button type='button' onclick='hide("ans14");hide("sol14")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q15'> 15. The base of a rectagular prism has a width of 5 meters and a length of 7 meters. If the height of the prism is 4 meters, find its total surface area.<br/>
+<tt id='ans15' style='display:none'><b><i>Ans.</i></b>: 166 square meters</tt>
+<tt id='sol15' style='display:none'><b><i>Sol.</i></b>: The total surface area of a rectangular prism is equal to the sum of the areas of its six faces.  These six faces are all rectangles.  Two opposite faces each has an area of length times width $ (l\times w)$ square meters.  Another pair of opposite faces each has an area of length times height $ (l\times h)$ square meters while the third pair of opposite faces each has an area of width times height $ (w\times h)$ square meters.  Hence, the total surface area $ S$ of any rectangular prism is $ S = 2( l\times w) + 2(l\times h) + 2(w\times h)$.  For this particular problem, length $ l=7$ meters, width $ w=5$ meters, and height $ h=4$ meters.  So the total surface area is $ S =  2(7)(5) + 2(7)(4) + 2(5)(4) = 70 + 56 + 40 = 166$ square meters.</tt>
+
+<button type='button' onclick='show("ans15")'>Ans.</button>
+<button type='button' onclick='show("sol15")'>Sol.</button>
+<button type='button' onclick='hide("ans15");hide("sol15")'>Hide Ans./Sol.</button>
+</p>
+
+</body>
+</html>
+

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type='text/javascript'>
+    function show(id) {
+      document.getElementById(id).style.display='block'
+    }
+    function hide(id) {
+      document.getElementById(id).style.display='none'
+    }
+  </script>
+	<script type='text/x-mathjax-config''>
+		MathJax.Hub.Config({
+			extensions: ['tex2jax.js'],
+			jax: ['input/TeX', 'output/HTML-CSS'],
+			tex2jax: {
+				inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+				displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
+				processEscapes: true
+			},
+			'HTML-CSS': { availableFonts: ['TeX'] }
+		});
+	</script>
+	<script type='text/javascript' async
+		src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'>
+	</script>
+	<!--script type='text/javascript' async
+		src='http://localhost/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML'>
+	</script-->
+</head>
+
+<body>
+<h3>Grade 4 - Set 1 Review Problems</h3>
+<tt>(Source: <a href=http://mtapreviewer.com/2014/02/27/grade-4-mtap-sample-problem-set-1/>http://mtapreviewer.com/</a>)</tt><br/>
+
+<br/>
+<p id='q1'> 1. What is the place value of the underlined digit in <b>5<u>8</u>3, 235</b>?<br/>
+<tt id='ans1' style='display:none'><b><i>Ans.</i></b>: ten thousands</tt>
+<tt id='sol1' style='display:none'><b><i>Sol.</i></b>: The given number is equal to 5(100,000) + <u>8</u><b>(10,000)</b> + 3(1,000) + 2(100) + 3(10) +5(1).  Hence, the place value of the underlined 8 is <b>ten thousands</b> or that the underlined 8 occupies the ten thousands place.</tt>
+
+<button type='button' onclick='show("ans1")'>Ans.</button>
+<button type='button' onclick='show("sol1")'>Sol.</button>
+<button type='button' onclick='hide("ans1");hide("sol1")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q2'> 2. Write two hundred eighty five thousand three in figures.<br/>
+<tt id='ans2' style='display:none'><b><i>Ans.</i></b>: 285, 003</tt>
+<tt id='sol2' style='display:none'><b><i>Sol.</i></b>: The given number is equal to <b> 285(1,000) + 3(1) = 285,000 + 3 = 285,003</b>.  Hence, the place value of the underlined 3 is <b>thousands</b>.</tt>
+
+<button type='button' onclick='show("ans2")'>Ans.</button>
+<button type='button' onclick='show("sol2")'>Sol.</button>
+<button type='button' onclick='hide("ans2");hide("sol2")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q3'> 3. If 1 is included, how many common factors do 30 and 48 have?<br/>
+<tt id='ans3' style='display:none'><b><i>Ans.</i></b>: Four (4)</tt>
+<tt id='sol3' style='display:none'><b><i>Sol.</i></b>: The prime factorization of 30 is 2(3)(5).  Hence, it has eight factors/divisors and these are 1, 2, 3, 5, 2(3), 2(5), 3(5), and 2(3)(5) or 1, 2, 3, 5, 6, 10, 15, and 30. <br/>  Of these eight factors/divisors of 30 only 1, 2, 3, and 6 are also factors of 48.<br/>  Hence, 30 and 48 have exactly <b>four</b> factors/divisors in common.</tt>
+
+<button type='button' onclick='show("ans3")'>Ans.</button>
+<button type='button' onclick='show("sol3")'>Sol.</button>
+<button type='button' onclick='hide("ans3");hide("sol3")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q4'> 4. The sum of two numbers  is 19 and their product is 84. What are they?<br/>
+<tt id='ans4' style='display:none'><b><i>Ans.</i></b>: 7 and 12</tt>
+<tt id='sol4' style='display:none'><b><i>Sol.</i></b>: Since the sum of the two numbers is positive and the product is also positive, each number must be positive.<br/>  So we can try number pairs like 1 and 18, 2 and 17, 3 and  16, 4 and 15, 5 and 14, 6 and 13, 7 and 12, 8 and 11, 9 and 10, among others.<br/>  One observes that the pairs (8,11) and (9,10) are too big, since 8(11)=88 and 9(10)=90 while the pair (6,13) is small as 6(13)=78.  However 7(12)=84 and 7+12=19.</tt>
+
+<button type='button' onclick='show("ans4")'>Ans.</button>
+<button type='button' onclick='show("sol4")'>Sol.</button>
+<button type='button' onclick='hide("ans4");hide("sol4")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q5'> 5. How many 18th are there in 5/6?<br/>
+<tt id='ans5' style='display:none'><b><i>Ans.</i></b>: Fifteen (15)</tt>
+<tt id='sol5' style='display:none'><b><i>Sol.</i></b>: This answer is obtained by dividing 5/6 by 1/18 giving (5/6)/(1/18) = (5/6)(18) = (5/6)(6)(3) = (5)(3) = 15.<br/>  One can speedily verify that 15(1/18) = 5/6.</tt>
+
+<button type='button' onclick='show("ans5")'>Ans.</button>
+<button type='button' onclick='show("sol5")'>Sol.</button>
+<button type='button' onclick='hide("ans5");hide("sol5")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q6'> 6. Change \( 6 \frac{7}{8} \) to improper fraction.<br/>
+<tt id='ans6' style='display:none'><b><i>Ans.</i></b>: 55/8</tt>
+<tt id='sol6' style='display:none'><b><i>Sol.</i></b>: \( a + \frac{b}{c} = \frac{a(c)  + b}{c} \).  <br/>  Here, \(a=6\), \(b=7\) and \(c=8\).  So that \(6 \frac{7}{8} = \frac{(6)(8) + 7}{8} = \frac{48+7}{8} = \frac{55}{8} \)</tt>
+
+<button type='button' onclick='show("ans6")'>Ans.</button>
+<button type='button' onclick='show("sol6")'>Sol.</button>
+<button type='button' onclick='hide("ans6");hide("sol6")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q7'> 7. If \(15/20 = N/100\), what is \(N\)?<br/>
+<tt id='ans7' style='display:none'><b><i>Ans.</i></b>: 75</tt>
+<tt id='sol7' style='display:none'><b><i>Sol.</i></b>: \( \frac{15}{20} = \frac{N}{100} \) hence \( \frac{3}{4} = \frac{N}{100}  \).  It follows that \( (3)(100) = 4(N) \) so that \( N = (3)(100)/4 = (3)(25) = 75 \).</tt>
+
+<button type='button' onclick='show("ans7")'>Ans.</button>
+<button type='button' onclick='show("sol7")'>Sol.</button>
+<button type='button' onclick='hide("ans7");hide("sol7")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q8'> 8. Anna bought \(2 \frac{1}{4}\) dozens of eggs and used \(1 \frac{1}{3}\) dozens to make leche flan. How many eggs were left?<br/>
+<tt id='ans8' style='display:none'><b><i>Ans.</i></b>: 11 eggs</tt>
+<tt id='sol8' style='display:none'><b><i>Sol.</i></b>: Since there are 12 eggs in a dozen, \( 2 \frac{1}{4} \) dozen eggs is equal to \( 12(2\frac{1}{4}) = 12(\frac{9}{4}) = 27 \;\) eggs.  While \( 1 \frac{1}{3} \) dozen eggs is equal to \( 12(1 \frac{1}{3}) = 12(\frac{4}{3}) = 16\;\) eggs.  The difference,  \( 2 \frac{1}{4} \;\mbox{doz.} \;-\; 1 \frac{1}{3} \;\mbox{doz.}\; = 27-16 = 11\;\) eggs.</tt>
+
+<button type='button' onclick='show("ans8")'>Ans.</button>
+<button type='button' onclick='show("sol8")'>Sol.</button>
+<button type='button' onclick='hide("ans8");hide("sol8")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q9'> 9. The ratio of girls to boys in a class is 3:5. If there are 40 pupils in the class, how many are boys?<br/>
+<tt id='ans9' style='display:none'><b><i>Ans.</i></b>: 25 are boys</tt>
+<tt id='sol9' style='display:none'><b><i>Sol.</i></b>: \( \frac{40}{3+5} = \frac{40}{8} =5 \).  So 3(5) are girls and 5(5) are boys.</tt>
+
+<button type='button' onclick='show("ans9")'>Ans.</button>
+<button type='button' onclick='show("sol9")'>Sol.</button>
+<button type='button' onclick='hide("ans9");hide("sol9")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q10'> 10. There are 1200 Grade 4 pupils in Kalayaan Elementary School.  If \( 45\% \) of them are girls, how many are boys?<br/>
+<tt id='ans10' style='display:none'><b><i>Ans.</i></b>: 660 are boys</tt>
+<tt id='sol10' style='display:none'><b><i>Sol.</i></b>: \( 45\%\) of 1200 is \( 0.45(1200) = 540 \) so 540 are girls and 1200-540 = 660 are boys.</tt>
+
+<button type='button' onclick='show("ans10")'>Ans.</button>
+<button type='button' onclick='show("sol10")'>Sol.</button>
+<button type='button' onclick='hide("ans10");hide("sol10")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q11'> 11.  What is the supplement of the complement of a 42-degree angle?<br/>
+<tt id='ans11' style='display:none'><b><i>Ans.</i></b>: 132-degree angle or \(132^\circ\)</tt>
+<tt id='sol11' style='display:none'><b><i>Sol.</i></b>: Complement of 42-degree angle is 90-42 = 48-degree angle. <br/> The supplement of a 48-degree anlgle is 180-48 = 132-degree angle.</tt>
+
+<button type='button' onclick='show("ans11")'>Ans.</button>
+<button type='button' onclick='show("sol11")'>Sol.</button>
+<button type='button' onclick='hide("ans11");hide("sol11")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q12'> 12.  The radius of a circular park is 52 meters. If you jog around its edge, how many meters would you have jogged? Use \(\pi = 3.14\).<br/>
+<tt id='ans12' style='display:none'><b><i>Ans.</i></b>: 326.56 \(\;\)m</tt>
+<tt id='sol12' style='display:none'><b><i>Sol.</i></b>: \( 2\pi r = 2\pi(52) = 104(\pi) = 104(3.14) = 326.56 \;\) m</tt>
+
+<button type='button' onclick='show("ans12")'>Ans.</button>
+<button type='button' onclick='show("sol12")'>Sol.</button>
+<button type='button' onclick='hide("ans12");hide("sol12")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q13'> 13.  What is the area of the circular park in 12?<br/>
+<tt id='ans13' style='display:none'><b><i>Ans.</i></b>: 8490.56 \(\;\)m\({}^2\)</tt>
+<tt id='sol13' style='display:none'><b><i>Sol.</i></b>: \( \pi r^2 = \pi (52)^2 = 2704\pi = 8490.56 \;\) m\({}^2\)</tt>
+
+<button type='button' onclick='show("ans13")'>Ans.</button>
+<button type='button' onclick='show("sol13")'>Sol.</button>
+<button type='button' onclick='hide("ans13");hide("sol13")'>Hide Ans./Sol.</button>
+</p>
+
+<br/>
+<p id='q14'> 14. Trees are planted 5 meters apart a long a straight line 135 meters long. How many trees are there?<br/>
+<tt id='ans14' style='display:none'><b><i>Ans.</i></b>: 28 trees</tt>
+<tt id='sol14' style='display:none'><b><i>Sol.</i></b>: For a line 1(5)=5 m long, two trees; for a line 2(5)=10 m long, three trees; for a line 3(5)=15 long, 4 trees; ...; for a line 27(5)=135 m long 28 trees.  So, in general, divide length of line of trees by the constant distance between then add 1, i.e., 135/5 + 1 = 27 + 1 = 28.</tt>
+
+<button type='button' onclick='show("ans14")'>Ans.</button>
+<button type='button' onclick='show("sol14")'>Sol.</button>
+<button type='button' onclick='hide("ans14");hide("sol14")'>Hide Ans./Sol.</button>
+</p>
+
+
+<br/>
+<p id='q15'> 15. The total surface area of a cube is 216 square meters. How long is its edge?<br/>
+<tt id='ans15' style='display:none'><b><i>Ans.</i></b>: 6 meters</tt>
+<tt id='sol15' style='display:none'><b><i>Sol.</i></b>: Let \(s\) be the length of an edge of the cube.  Since a cube has six faces, each of the six faces is a square with edge of length \(s\), and the area of such a square is $ s^2 $, then <br/> \( 6s^2 =216 \;\) m\({}^2\), so that \( s^2 = \frac{216}{6} = 36 \;\) m\({}^2\), and hence $ s = \sqrt{36} = 6\; $ m</tt>
+
+<button type='button' onclick='show("ans15")'>Ans.</button>
+<button type='button' onclick='show("sol15")'>Sol.</button>
+<button type='button' onclick='hide("ans15");hide("sol15")'>Hide Ans./Sol.</button>
+</p>
+
+</body>
+</html>
+
