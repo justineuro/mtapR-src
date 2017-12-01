@@ -1,7 +1,7 @@
 ## mtapR-src
 This project contains the files for genrating an Android app (using WebView) for the GitHub project [mtap](https://justineuro.github.io/mtap/), a repository of sample MTAP reviewers and past exams.  (One can use [Android Studio](https://developer.android.com/studio/index.html) for generating the APK.)
 
-Click at the following link to download the Android app: [AdrMTAP.apk](https://justineuro.github.io/mtapR/AdrMTAP.apk)
+Click at the following link to download the Android app: [AdrMTAP-v.1.0.0-pre-release.apk](https://github.com/justineuro/mtapR/releases/download/1.0.0-pre-release/AdrMTAP-v.1.0.0-pre-release.apk)
 
 ## Acknowledgements
 
